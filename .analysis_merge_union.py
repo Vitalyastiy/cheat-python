@@ -5,17 +5,13 @@
 import os
 import glob
 import pandas as pd
-os.chdir("C:\\Users\\vitaly.flerin\\Desktop\g\\")
-
+os.chdir("C:\\Users\\....Desktop\g\\")
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
-
 #combine all files in the list
 combined_csv = pd.concat([pd.read_csv(f, sep=";") for f in all_filenames ])
 #export to csv
 combined_csv.to_csv( "combined_csv.csv", index=False, encoding='utf-8-sig')
-
-
 
 
 # %%
@@ -23,7 +19,7 @@ combined_csv.to_csv( "combined_csv.csv", index=False, encoding='utf-8-sig')
 import pandas as pd
 #%%
 import pandas as pd
-data1 = pd.read_csv(r"C:\Users\vitaly.flerin\Desktop\05 Ad hoc\2022-08-12_ps_integrety\2022-10-27Детализация Калининград\full.csv" \
+data1 = pd.read_csv(r"C:\Users\........\full.csv" \
     , sep=',' , encoding='latin-1') #, index_col=0 - индекс 
 data1.head()
 # %%
@@ -68,7 +64,6 @@ data2["pi_share"] = [float(str(i).replace("100", "1")) for i in data2["pi_share"
 len(data2)
 # %%
 data2.loc[(data2.pi_share =='0'), "pi_share"] = 0
-
 # %%
 data2.agg({'pi_share': ['count', 'sum']})
 # %%
