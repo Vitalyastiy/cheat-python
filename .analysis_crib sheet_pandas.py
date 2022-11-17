@@ -3,11 +3,11 @@
 from itertools import count
 from multiprocessing import cpu_count
 import pandas as pd
-data2 = pd.read_csv(r"C:\Users\vitaly.flerin\Desktop\nnn\NN.csv" \
+data2 = pd.read_csv(r"C:\Users\....Desktop\nnn\NN.csv" \
     , sep=',' , encoding='latin-1') #, index_col=0 - индекс 
 data2.head(3)
 #%%
-'''data = pd.read_csv(r"C:\Users\vitaly.flerin\Desktop\nn\02-03_new — копия.csv" \
+'''data = pd.read_csv(r"C:\Users\...Desktop\nn\02-03_new — копия.csv" \
     , sep=',' , encoding='latin-1') #, index_col=0 - индекс 
 data.head(3)'''
 # data_copy[:10].to_csv('saved_ratings.csv', index=False) # экспортироватъ первые десятъ строк
