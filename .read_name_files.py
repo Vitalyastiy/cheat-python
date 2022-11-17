@@ -1,7 +1,6 @@
 # 
 import os
-nam=os.listdir(r"C:\Users\vitaly.flerin\Desktop\test_ vol")
-
+nam=os.listdir(r"C:\...\Desktop\test_ vol")
 # %%
 import pandas as pd
 nam = pd.DataFrame([nam])
@@ -14,5 +13,5 @@ df = pd.DataFrame(np.array([nam]).T)
 df.columns =['0']
 df
 # %%
-df.to_excel('sample_data.xlsx', sheet_name='sheet1', index=False)
+df.to_excel('sample.xlsx', sheet_name='sheet1', index=False)
 
