@@ -4,11 +4,10 @@ data=data.rename(columns={"Mean_flag_integrity 4G (%)": "flag"})
 data.head(3)
 
 import pandas as pd
-data1 = pd.read_csv(r"C:\Users\vitaly.flerin\Desktop\05 Ad hoc\2022-08-12_ps_integrety\2022-10-27Детализация Калининград\full.csv" \
+data1 = pd.read_csv(r"C:\.....\full.csv" \
     , sep=',' , encoding='latin-1') #, index_col=0 - индекс 
 data1.head()               
 # %%
-
 data.flag == '0' # Филътр, вывод списком 
 data[['ACELL', 'Region']] # фильтр на 2 стобца
 data.ACELL == 'NN000231_A' # выводит булево, оценивая каждую строку по отдельности 
