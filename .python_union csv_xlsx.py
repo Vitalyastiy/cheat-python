@@ -1,8 +1,8 @@
 # %%
-
 import os
 import glob
 import pandas as pd
+#%%
 os.chdir("C:\\Users\\....\\Desktop\\new\\")
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
@@ -11,9 +11,6 @@ combined_csv = pd.concat([pd.read_csv(f, sep=";") for f in all_filenames ])
 #export to csv
 combined_csv.to_csv( "combined_csv.csv", index=False, encoding='utf-8-sig')
 #%%
-
-
-
 ''' Для экселя'''
 # filenames
 excel_names = ["yan_1.xlsx", "yan_2.xlsx", "yan_3.xlsx", "yan_4.xlsx"]
