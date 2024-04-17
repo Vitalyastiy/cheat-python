@@ -1,0 +1,8 @@
+1. `seaborn-poster`
+2. `seaborn-talk`
+3. `seaborn`
+4. `Solarize_Light2`
+5. `classic`
+
+plt.style.use('default')
+plt.style.use('ggplot')
