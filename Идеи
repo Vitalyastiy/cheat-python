@@ -1,0 +1,17 @@
+students = ['Ivan', 'Masha', 'Sasha']
+students2 = ['Alex', 'Yuri', 'Anna']
+students += students2
+for student in students:
+    print('Hello', student + '!')
+print(len(students))
+students += 'Sasha'
+students.insert(5,'Sasha')
+print(students)
+students.remove('Sasha')
+print(students)
+del students[1:4:2]
+print(students)
+print(students.pop(1))
+print(students)
+students.reverse()
+print(students)
