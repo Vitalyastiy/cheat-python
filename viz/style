@@ -1,8 +1,28 @@
-1. `seaborn-poster`
-2. `seaborn-talk`
-3. `seaborn`
-4. `Solarize_Light2`
-5. `classic`
-
 plt.style.use('default')
 plt.style.use('ggplot')
+
+default - Стандартный стиль matplotlib.
+classic - Старая версия стандартного стиля.
+seaborn-bright
+seaborn-colorblind
+seaborn-dark
+seaborn-dark-palette
+seaborn-darkgrid
+seaborn-deep
+seaborn-muted
+seaborn-notebook
+seaborn-paper
+seaborn-pastel
+seaborn-poster
+seaborn-talk
+seaborn-ticks
+seaborn-white
+seaborn-whitegrid
+Solarize_Light2
+bmh
+dark_background
+fast
+fivethirtyeight
+ggplot
+grayscale
+tableau-colorblind10
